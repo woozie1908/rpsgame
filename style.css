@@ -1,0 +1,25 @@
+
+/*Game Title and buttons flex to middle of screen*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.button-container {
+    display: flex;
+    gap: 25px;
+    flex-direction: row;
+}
+
+.scoreboard {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    width: 300px;
+    text-align: center;
+}
